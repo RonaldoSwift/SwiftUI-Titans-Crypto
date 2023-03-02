@@ -13,7 +13,7 @@ struct SwiftUI_Titans_CryptoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BienvenidaView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

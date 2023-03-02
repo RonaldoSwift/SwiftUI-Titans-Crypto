@@ -8,7 +8,6 @@
 import XCTest
 
 final class SwiftUI_Titans_CryptoUITestsLaunchTests: XCTestCase {
-
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }

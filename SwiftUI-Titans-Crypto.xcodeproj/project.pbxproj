@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214720D47B65021F4FFBD614 /* Pods_SwiftUI_Titans_CryptoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932C4BCE80CE384A710FFEA6 /* Pods_SwiftUI_Titans_CryptoTests.framework */; };
+		94C2CD1BECAAC5FA49C292CD /* Pods_SwiftUI_Titans_Crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5FE526388A0EFDF93C1ECC /* Pods_SwiftUI_Titans_Crypto.framework */; };
+		CE929DE8F049BD76919A33BF /* Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B3EA591CEED8401F91A5A /* Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework */; };
 		D110F70F29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F70E29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift */; };
 		D110F71129B025CD008C8B49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F71029B025CD008C8B49 /* ContentView.swift */; };
 		D110F71329B025D8008C8B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D110F71229B025D8008C8B49 /* Assets.xcassets */; };
@@ -16,6 +19,17 @@
 		D110F72529B025D9008C8B49 /* SwiftUI_Titans_CryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F72429B025D9008C8B49 /* SwiftUI_Titans_CryptoTests.swift */; };
 		D110F72F29B025D9008C8B49 /* SwiftUI_Titans_CryptoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F72E29B025D9008C8B49 /* SwiftUI_Titans_CryptoUITests.swift */; };
 		D110F73129B025D9008C8B49 /* SwiftUI_Titans_CryptoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F73029B025D9008C8B49 /* SwiftUI_Titans_CryptoUITestsLaunchTests.swift */; };
+		D110F74129B026D3008C8B49 /* BienvenidaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F74029B026D3008C8B49 /* BienvenidaView.swift */; };
+		D110F74429B0271C008C8B49 /* AutenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F74329B0271C008C8B49 /* AutenticationView.swift */; };
+		D110F74729B028B2008C8B49 /* RegisterMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F74629B028B2008C8B49 /* RegisterMobileView.swift */; };
+		D110F74A29B028DE008C8B49 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F74929B028DE008C8B49 /* VerificationView.swift */; };
+		D110F74D29B0291C008C8B49 /* CuentaCreadaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F74C29B0291C008C8B49 /* CuentaCreadaView.swift */; };
+		D110F75029B0297C008C8B49 /* TabPrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F74F29B0297C008C8B49 /* TabPrincipalView.swift */; };
+		D110F75729B029E1008C8B49 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75629B029E1008C8B49 /* HomeView.swift */; };
+		D110F75929B029EE008C8B49 /* MarketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75829B029EE008C8B49 /* MarketsView.swift */; };
+		D110F75B29B029F8008C8B49 /* TradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75A29B029F8008C8B49 /* TradesView.swift */; };
+		D110F75D29B02A07008C8B49 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75C29B02A07008C8B49 /* ActivityView.swift */; };
+		D110F75F29B02A14008C8B49 /* WalletsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75E29B02A14008C8B49 /* WalletsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0265DF692F585D678C0B99F3 /* Pods-SwiftUI-Titans-CryptoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Titans-CryptoTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Titans-CryptoTests/Pods-SwiftUI-Titans-CryptoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1789C048DD54C1EBC1944A29 /* Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20F5460CE4302B805A0D9922 /* Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D5FE526388A0EFDF93C1ECC /* Pods_SwiftUI_Titans_Crypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Titans_Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		632B5042C3B73AFA11F0A3F4 /* Pods-SwiftUI-Titans-Crypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Titans-Crypto.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto.debug.xcconfig"; sourceTree = "<group>"; };
+		63AE694A504D922B55562854 /* Pods-SwiftUI-Titans-CryptoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Titans-CryptoTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Titans-CryptoTests/Pods-SwiftUI-Titans-CryptoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		932C4BCE80CE384A710FFEA6 /* Pods_SwiftUI_Titans_CryptoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Titans_CryptoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D110F70B29B025CD008C8B49 /* SwiftUI-Titans-Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Titans-Crypto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D110F70E29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Titans_CryptoApp.swift; sourceTree = "<group>"; };
 		D110F71029B025CD008C8B49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +69,19 @@
 		D110F72A29B025D9008C8B49 /* SwiftUI-Titans-CryptoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Titans-CryptoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D110F72E29B025D9008C8B49 /* SwiftUI_Titans_CryptoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Titans_CryptoUITests.swift; sourceTree = "<group>"; };
 		D110F73029B025D9008C8B49 /* SwiftUI_Titans_CryptoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Titans_CryptoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D110F74029B026D3008C8B49 /* BienvenidaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienvenidaView.swift; sourceTree = "<group>"; };
+		D110F74329B0271C008C8B49 /* AutenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutenticationView.swift; sourceTree = "<group>"; };
+		D110F74629B028B2008C8B49 /* RegisterMobileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterMobileView.swift; sourceTree = "<group>"; };
+		D110F74929B028DE008C8B49 /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		D110F74C29B0291C008C8B49 /* CuentaCreadaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaCreadaView.swift; sourceTree = "<group>"; };
+		D110F74F29B0297C008C8B49 /* TabPrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPrincipalView.swift; sourceTree = "<group>"; };
+		D110F75629B029E1008C8B49 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D110F75829B029EE008C8B49 /* MarketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsView.swift; sourceTree = "<group>"; };
+		D110F75A29B029F8008C8B49 /* TradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradesView.swift; sourceTree = "<group>"; };
+		D110F75C29B02A07008C8B49 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		D110F75E29B02A14008C8B49 /* WalletsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsView.swift; sourceTree = "<group>"; };
+		E15B3EA591CEED8401F91A5A /* Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7907746543C44D34C354E39 /* Pods-SwiftUI-Titans-Crypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Titans-Crypto.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C2CD1BECAAC5FA49C292CD /* Pods_SwiftUI_Titans_Crypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214720D47B65021F4FFBD614 /* Pods_SwiftUI_Titans_CryptoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +105,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE929DE8F049BD76919A33BF /* Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		317092A08255332081341BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FE526388A0EFDF93C1ECC /* Pods_SwiftUI_Titans_Crypto.framework */,
+				E15B3EA591CEED8401F91A5A /* Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework */,
+				932C4BCE80CE384A710FFEA6 /* Pods_SwiftUI_Titans_CryptoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D110F70229B025CD008C8B49 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +129,8 @@
 				D110F72329B025D9008C8B49 /* SwiftUI-Titans-CryptoTests */,
 				D110F72D29B025D9008C8B49 /* SwiftUI-Titans-CryptoUITests */,
 				D110F70C29B025CD008C8B49 /* Products */,
+				E97A2D95C202C1D4EBDC1158 /* Pods */,
+				317092A08255332081341BAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +147,8 @@
 		D110F70D29B025CD008C8B49 /* SwiftUI-Titans-Crypto */ = {
 			isa = PBXGroup;
 			children = (
-				D110F70E29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift */,
+				D110F73E29B02668008C8B49 /* Views */,
+				D110F73D29B0265B008C8B49 /* App */,
 				D110F71029B025CD008C8B49 /* ContentView.swift */,
 				D110F71229B025D8008C8B49 /* Assets.xcassets */,
 				D110F71729B025D8008C8B49 /* Persistence.swift */,
@@ -133,6 +183,133 @@
 			path = "SwiftUI-Titans-CryptoUITests";
 			sourceTree = "<group>";
 		};
+		D110F73D29B0265B008C8B49 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D110F70E29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D110F73E29B02668008C8B49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D110F74E29B02960008C8B49 /* TabPrincipal */,
+				D110F74229B026F7008C8B49 /* Autentication */,
+				D110F73F29B026BC008C8B49 /* Bienvenida */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D110F73F29B026BC008C8B49 /* Bienvenida */ = {
+			isa = PBXGroup;
+			children = (
+				D110F74029B026D3008C8B49 /* BienvenidaView.swift */,
+			);
+			path = Bienvenida;
+			sourceTree = "<group>";
+		};
+		D110F74229B026F7008C8B49 /* Autentication */ = {
+			isa = PBXGroup;
+			children = (
+				D110F74B29B0290C008C8B49 /* CuentaCreada */,
+				D110F74829B028CB008C8B49 /* Verification */,
+				D110F74529B02885008C8B49 /* RegisterMobile */,
+				D110F74329B0271C008C8B49 /* AutenticationView.swift */,
+			);
+			path = Autentication;
+			sourceTree = "<group>";
+		};
+		D110F74529B02885008C8B49 /* RegisterMobile */ = {
+			isa = PBXGroup;
+			children = (
+				D110F74629B028B2008C8B49 /* RegisterMobileView.swift */,
+			);
+			path = RegisterMobile;
+			sourceTree = "<group>";
+		};
+		D110F74829B028CB008C8B49 /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				D110F74929B028DE008C8B49 /* VerificationView.swift */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
+		D110F74B29B0290C008C8B49 /* CuentaCreada */ = {
+			isa = PBXGroup;
+			children = (
+				D110F74C29B0291C008C8B49 /* CuentaCreadaView.swift */,
+			);
+			path = CuentaCreada;
+			sourceTree = "<group>";
+		};
+		D110F74E29B02960008C8B49 /* TabPrincipal */ = {
+			isa = PBXGroup;
+			children = (
+				D110F75529B029C3008C8B49 /* Wallets */,
+				D110F75429B029BB008C8B49 /* Activity */,
+				D110F75329B029B3008C8B49 /* Trades */,
+				D110F75229B029AB008C8B49 /* Markets */,
+				D110F75129B029A5008C8B49 /* Home */,
+				D110F74F29B0297C008C8B49 /* TabPrincipalView.swift */,
+			);
+			path = TabPrincipal;
+			sourceTree = "<group>";
+		};
+		D110F75129B029A5008C8B49 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D110F75629B029E1008C8B49 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D110F75229B029AB008C8B49 /* Markets */ = {
+			isa = PBXGroup;
+			children = (
+				D110F75829B029EE008C8B49 /* MarketsView.swift */,
+			);
+			path = Markets;
+			sourceTree = "<group>";
+		};
+		D110F75329B029B3008C8B49 /* Trades */ = {
+			isa = PBXGroup;
+			children = (
+				D110F75A29B029F8008C8B49 /* TradesView.swift */,
+			);
+			path = Trades;
+			sourceTree = "<group>";
+		};
+		D110F75429B029BB008C8B49 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				D110F75C29B02A07008C8B49 /* ActivityView.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		D110F75529B029C3008C8B49 /* Wallets */ = {
+			isa = PBXGroup;
+			children = (
+				D110F75E29B02A14008C8B49 /* WalletsView.swift */,
+			);
+			path = Wallets;
+			sourceTree = "<group>";
+		};
+		E97A2D95C202C1D4EBDC1158 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				632B5042C3B73AFA11F0A3F4 /* Pods-SwiftUI-Titans-Crypto.debug.xcconfig */,
+				E7907746543C44D34C354E39 /* Pods-SwiftUI-Titans-Crypto.release.xcconfig */,
+				1789C048DD54C1EBC1944A29 /* Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests.debug.xcconfig */,
+				20F5460CE4302B805A0D9922 /* Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests.release.xcconfig */,
+				63AE694A504D922B55562854 /* Pods-SwiftUI-Titans-CryptoTests.debug.xcconfig */,
+				0265DF692F585D678C0B99F3 /* Pods-SwiftUI-Titans-CryptoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +317,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D110F73429B025D9008C8B49 /* Build configuration list for PBXNativeTarget "SwiftUI-Titans-Crypto" */;
 			buildPhases = (
+				5FDACCB600CF52772F543747 /* [CP] Check Pods Manifest.lock */,
 				D110F70729B025CD008C8B49 /* Sources */,
 				D110F70829B025CD008C8B49 /* Frameworks */,
 				D110F70929B025CD008C8B49 /* Resources */,
+				D110F76029B02E53008C8B49 /* SwiftFormat Run Script */,
+				5F33D9BF942EF066D07A5D0C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +337,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D110F73729B025D9008C8B49 /* Build configuration list for PBXNativeTarget "SwiftUI-Titans-CryptoTests" */;
 			buildPhases = (
+				8B55FEAD1526B8F1A8879759 /* [CP] Check Pods Manifest.lock */,
 				D110F71C29B025D9008C8B49 /* Sources */,
 				D110F71D29B025D9008C8B49 /* Frameworks */,
 				D110F71E29B025D9008C8B49 /* Resources */,
@@ -175,9 +356,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D110F73A29B025D9008C8B49 /* Build configuration list for PBXNativeTarget "SwiftUI-Titans-CryptoUITests" */;
 			buildPhases = (
+				0102A6268FFB8F9268D559F4 /* [CP] Check Pods Manifest.lock */,
 				D110F72629B025D9008C8B49 /* Sources */,
 				D110F72729B025D9008C8B49 /* Frameworks */,
 				D110F72829B025D9008C8B49 /* Resources */,
+				484E9C6BF3CDFD92CB03A586 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,7 +396,7 @@
 				};
 			};
 			buildConfigurationList = D110F70629B025CD008C8B49 /* Build configuration list for PBXProject "SwiftUI-Titans-Crypto" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -258,15 +441,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0102A6268FFB8F9268D559F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		484E9C6BF3CDFD92CB03A586 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F33D9BF942EF066D07A5D0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FDACCB600CF52772F543747 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-Titans-Crypto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B55FEAD1526B8F1A8879759 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-Titans-CryptoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D110F76029B02E53008C8B49 /* SwiftFormat Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftFormat Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D110F70729B025CD008C8B49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D110F71829B025D8008C8B49 /* Persistence.swift in Sources */,
+				D110F74429B0271C008C8B49 /* AutenticationView.swift in Sources */,
 				D110F71129B025CD008C8B49 /* ContentView.swift in Sources */,
+				D110F74729B028B2008C8B49 /* RegisterMobileView.swift in Sources */,
+				D110F75B29B029F8008C8B49 /* TradesView.swift in Sources */,
+				D110F74129B026D3008C8B49 /* BienvenidaView.swift in Sources */,
+				D110F75729B029E1008C8B49 /* HomeView.swift in Sources */,
+				D110F75929B029EE008C8B49 /* MarketsView.swift in Sources */,
 				D110F70F29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift in Sources */,
 				D110F71B29B025D8008C8B49 /* SwiftUI_Titans_Crypto.xcdatamodeld in Sources */,
+				D110F75029B0297C008C8B49 /* TabPrincipalView.swift in Sources */,
+				D110F75D29B02A07008C8B49 /* ActivityView.swift in Sources */,
+				D110F74D29B0291C008C8B49 /* CuentaCreadaView.swift in Sources */,
+				D110F74A29B028DE008C8B49 /* VerificationView.swift in Sources */,
+				D110F75F29B02A14008C8B49 /* WalletsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +668,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,7 +722,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -419,6 +734,7 @@
 		};
 		D110F73529B025D9008C8B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 632B5042C3B73AFA11F0A3F4 /* Pods-SwiftUI-Titans-Crypto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -433,6 +749,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,6 +765,7 @@
 		};
 		D110F73629B025D9008C8B49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7907746543C44D34C354E39 /* Pods-SwiftUI-Titans-Crypto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +780,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +796,7 @@
 		};
 		D110F73829B025D9008C8B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63AE694A504D922B55562854 /* Pods-SwiftUI-Titans-CryptoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +817,7 @@
 		};
 		D110F73929B025D9008C8B49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0265DF692F585D678C0B99F3 /* Pods-SwiftUI-Titans-CryptoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +838,7 @@
 		};
 		D110F73B29B025D9008C8B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1789C048DD54C1EBC1944A29 /* Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +857,7 @@
 		};
 		D110F73C29B025D9008C8B49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F5460CE4302B805A0D9922 /* Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
