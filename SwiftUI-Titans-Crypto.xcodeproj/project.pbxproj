@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D110F70F29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F70E29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift */; };
+		D110F71129B025CD008C8B49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F71029B025CD008C8B49 /* ContentView.swift */; };
+		D110F71329B025D8008C8B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D110F71229B025D8008C8B49 /* Assets.xcassets */; };
+		D110F71629B025D8008C8B49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D110F71529B025D8008C8B49 /* Preview Assets.xcassets */; };
+		D110F71829B025D8008C8B49 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F71729B025D8008C8B49 /* Persistence.swift */; };
+		D110F71B29B025D8008C8B49 /* SwiftUI_Titans_Crypto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D110F71929B025D8008C8B49 /* SwiftUI_Titans_Crypto.xcdatamodeld */; };
+		D110F72529B025D9008C8B49 /* SwiftUI_Titans_CryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F72429B025D9008C8B49 /* SwiftUI_Titans_CryptoTests.swift */; };
+		D110F72F29B025D9008C8B49 /* SwiftUI_Titans_CryptoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F72E29B025D9008C8B49 /* SwiftUI_Titans_CryptoUITests.swift */; };
+		D110F73129B025D9008C8B49 /* SwiftUI_Titans_CryptoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F73029B025D9008C8B49 /* SwiftUI_Titans_CryptoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D110F72129B025D9008C8B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D110F70329B025CD008C8B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D110F70A29B025CD008C8B49;
+			remoteInfo = "SwiftUI-Titans-Crypto";
+		};
+		D110F72B29B025D9008C8B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D110F70329B025CD008C8B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D110F70A29B025CD008C8B49;
+			remoteInfo = "SwiftUI-Titans-Crypto";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D110F70B29B025CD008C8B49 /* SwiftUI-Titans-Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Titans-Crypto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D110F70E29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Titans_CryptoApp.swift; sourceTree = "<group>"; };
+		D110F71029B025CD008C8B49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D110F71229B025D8008C8B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D110F71529B025D8008C8B49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D110F71729B025D8008C8B49 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D110F71A29B025D8008C8B49 /* SwiftUI_Titans_Crypto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_Titans_Crypto.xcdatamodel; sourceTree = "<group>"; };
+		D110F72029B025D9008C8B49 /* SwiftUI-Titans-CryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Titans-CryptoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D110F72429B025D9008C8B49 /* SwiftUI_Titans_CryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Titans_CryptoTests.swift; sourceTree = "<group>"; };
+		D110F72A29B025D9008C8B49 /* SwiftUI-Titans-CryptoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Titans-CryptoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D110F72E29B025D9008C8B49 /* SwiftUI_Titans_CryptoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Titans_CryptoUITests.swift; sourceTree = "<group>"; };
+		D110F73029B025D9008C8B49 /* SwiftUI_Titans_CryptoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Titans_CryptoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D110F70829B025CD008C8B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D110F71D29B025D9008C8B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D110F72729B025D9008C8B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D110F70229B025CD008C8B49 = {
+			isa = PBXGroup;
+			children = (
+				D110F70D29B025CD008C8B49 /* SwiftUI-Titans-Crypto */,
+				D110F72329B025D9008C8B49 /* SwiftUI-Titans-CryptoTests */,
+				D110F72D29B025D9008C8B49 /* SwiftUI-Titans-CryptoUITests */,
+				D110F70C29B025CD008C8B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D110F70C29B025CD008C8B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D110F70B29B025CD008C8B49 /* SwiftUI-Titans-Crypto.app */,
+				D110F72029B025D9008C8B49 /* SwiftUI-Titans-CryptoTests.xctest */,
+				D110F72A29B025D9008C8B49 /* SwiftUI-Titans-CryptoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D110F70D29B025CD008C8B49 /* SwiftUI-Titans-Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				D110F70E29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift */,
+				D110F71029B025CD008C8B49 /* ContentView.swift */,
+				D110F71229B025D8008C8B49 /* Assets.xcassets */,
+				D110F71729B025D8008C8B49 /* Persistence.swift */,
+				D110F71929B025D8008C8B49 /* SwiftUI_Titans_Crypto.xcdatamodeld */,
+				D110F71429B025D8008C8B49 /* Preview Content */,
+			);
+			path = "SwiftUI-Titans-Crypto";
+			sourceTree = "<group>";
+		};
+		D110F71429B025D8008C8B49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D110F71529B025D8008C8B49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D110F72329B025D9008C8B49 /* SwiftUI-Titans-CryptoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D110F72429B025D9008C8B49 /* SwiftUI_Titans_CryptoTests.swift */,
+			);
+			path = "SwiftUI-Titans-CryptoTests";
+			sourceTree = "<group>";
+		};
+		D110F72D29B025D9008C8B49 /* SwiftUI-Titans-CryptoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D110F72E29B025D9008C8B49 /* SwiftUI_Titans_CryptoUITests.swift */,
+				D110F73029B025D9008C8B49 /* SwiftUI_Titans_CryptoUITestsLaunchTests.swift */,
+			);
+			path = "SwiftUI-Titans-CryptoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D110F70A29B025CD008C8B49 /* SwiftUI-Titans-Crypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D110F73429B025D9008C8B49 /* Build configuration list for PBXNativeTarget "SwiftUI-Titans-Crypto" */;
+			buildPhases = (
+				D110F70729B025CD008C8B49 /* Sources */,
+				D110F70829B025CD008C8B49 /* Frameworks */,
+				D110F70929B025CD008C8B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-Titans-Crypto";
+			productName = "SwiftUI-Titans-Crypto";
+			productReference = D110F70B29B025CD008C8B49 /* SwiftUI-Titans-Crypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D110F71F29B025D9008C8B49 /* SwiftUI-Titans-CryptoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D110F73729B025D9008C8B49 /* Build configuration list for PBXNativeTarget "SwiftUI-Titans-CryptoTests" */;
+			buildPhases = (
+				D110F71C29B025D9008C8B49 /* Sources */,
+				D110F71D29B025D9008C8B49 /* Frameworks */,
+				D110F71E29B025D9008C8B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D110F72229B025D9008C8B49 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-Titans-CryptoTests";
+			productName = "SwiftUI-Titans-CryptoTests";
+			productReference = D110F72029B025D9008C8B49 /* SwiftUI-Titans-CryptoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D110F72929B025D9008C8B49 /* SwiftUI-Titans-CryptoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D110F73A29B025D9008C8B49 /* Build configuration list for PBXNativeTarget "SwiftUI-Titans-CryptoUITests" */;
+			buildPhases = (
+				D110F72629B025D9008C8B49 /* Sources */,
+				D110F72729B025D9008C8B49 /* Frameworks */,
+				D110F72829B025D9008C8B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D110F72C29B025D9008C8B49 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-Titans-CryptoUITests";
+			productName = "SwiftUI-Titans-CryptoUITests";
+			productReference = D110F72A29B025D9008C8B49 /* SwiftUI-Titans-CryptoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D110F70329B025CD008C8B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D110F70A29B025CD008C8B49 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D110F71F29B025D9008C8B49 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D110F70A29B025CD008C8B49;
+					};
+					D110F72929B025D9008C8B49 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D110F70A29B025CD008C8B49;
+					};
+				};
+			};
+			buildConfigurationList = D110F70629B025CD008C8B49 /* Build configuration list for PBXProject "SwiftUI-Titans-Crypto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D110F70229B025CD008C8B49;
+			productRefGroup = D110F70C29B025CD008C8B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D110F70A29B025CD008C8B49 /* SwiftUI-Titans-Crypto */,
+				D110F71F29B025D9008C8B49 /* SwiftUI-Titans-CryptoTests */,
+				D110F72929B025D9008C8B49 /* SwiftUI-Titans-CryptoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D110F70929B025CD008C8B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D110F71629B025D8008C8B49 /* Preview Assets.xcassets in Resources */,
+				D110F71329B025D8008C8B49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D110F71E29B025D9008C8B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D110F72829B025D9008C8B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D110F70729B025CD008C8B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D110F71829B025D8008C8B49 /* Persistence.swift in Sources */,
+				D110F71129B025CD008C8B49 /* ContentView.swift in Sources */,
+				D110F70F29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift in Sources */,
+				D110F71B29B025D8008C8B49 /* SwiftUI_Titans_Crypto.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D110F71C29B025D9008C8B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D110F72529B025D9008C8B49 /* SwiftUI_Titans_CryptoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D110F72629B025D9008C8B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D110F73129B025D9008C8B49 /* SwiftUI_Titans_CryptoUITestsLaunchTests.swift in Sources */,
+				D110F72F29B025D9008C8B49 /* SwiftUI_Titans_CryptoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D110F72229B025D9008C8B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D110F70A29B025CD008C8B49 /* SwiftUI-Titans-Crypto */;
+			targetProxy = D110F72129B025D9008C8B49 /* PBXContainerItemProxy */;
+		};
+		D110F72C29B025D9008C8B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D110F70A29B025CD008C8B49 /* SwiftUI-Titans-Crypto */;
+			targetProxy = D110F72B29B025D9008C8B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D110F73229B025D9008C8B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D110F73329B025D9008C8B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D110F73529B025D9008C8B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Titans-Crypto/Preview Content\"";
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laclave.SwiftUI-Titans-Crypto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D110F73629B025D9008C8B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Titans-Crypto/Preview Content\"";
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laclave.SwiftUI-Titans-Crypto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D110F73829B025D9008C8B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laclave.SwiftUI-Titans-CryptoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-Titans-Crypto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI-Titans-Crypto";
+			};
+			name = Debug;
+		};
+		D110F73929B025D9008C8B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laclave.SwiftUI-Titans-CryptoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-Titans-Crypto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI-Titans-Crypto";
+			};
+			name = Release;
+		};
+		D110F73B29B025D9008C8B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laclave.SwiftUI-Titans-CryptoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI-Titans-Crypto";
+			};
+			name = Debug;
+		};
+		D110F73C29B025D9008C8B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laclave.SwiftUI-Titans-CryptoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI-Titans-Crypto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D110F70629B025CD008C8B49 /* Build configuration list for PBXProject "SwiftUI-Titans-Crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D110F73229B025D9008C8B49 /* Debug */,
+				D110F73329B025D9008C8B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D110F73429B025D9008C8B49 /* Build configuration list for PBXNativeTarget "SwiftUI-Titans-Crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D110F73529B025D9008C8B49 /* Debug */,
+				D110F73629B025D9008C8B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D110F73729B025D9008C8B49 /* Build configuration list for PBXNativeTarget "SwiftUI-Titans-CryptoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D110F73829B025D9008C8B49 /* Debug */,
+				D110F73929B025D9008C8B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D110F73A29B025D9008C8B49 /* Build configuration list for PBXNativeTarget "SwiftUI-Titans-CryptoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D110F73B29B025D9008C8B49 /* Debug */,
+				D110F73C29B025D9008C8B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D110F71929B025D8008C8B49 /* SwiftUI_Titans_Crypto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D110F71A29B025D8008C8B49 /* SwiftUI_Titans_Crypto.xcdatamodel */,
+			);
+			currentVersion = D110F71A29B025D8008C8B49 /* SwiftUI_Titans_Crypto.xcdatamodel */;
+			path = SwiftUI_Titans_Crypto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D110F70329B025CD008C8B49 /* Project object */;
+}
