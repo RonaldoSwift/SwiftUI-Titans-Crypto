@@ -8,15 +8,31 @@
 import SwiftUI
 
 struct BienvenidaView: View {
+    @State var index = 0
+
+    var images = ["Paradise", "Paradise", "Paradise", "Paradise", "Paradise"]
+
     var body: some View {
         NavigationView {
-            NavigationLink {
-                AutenticationView()
-            } label: {
-                Text("ir a autwntication")
-            }
+            VStack {
+                PagingView(index: $index.animation(), maxIndex: images.count - 1) {
+                    ForEach(self.images, id: \.self) { (imageName: String) in
+                        Image(imageName)
+                            .resizable()
+                            .scaledToFill()
+                    }
+                }
+                .aspectRatio(4 / 3, contentMode: .fit)
+                .clipShape(RoundedRectangle(cornerRadius: 15))
 
-            Text("Pantalla de bienvenida - Aqui va el slider")
+                Stepper("Index: \(index)", value: $index.animation(.easeOut), in: 0 ... images.count - 1)
+
+                NavigationLink {
+                    AutenticationView()
+                } label: {
+                    Text("ir a autwntication")
+                }
+            }
         }
     }
 }

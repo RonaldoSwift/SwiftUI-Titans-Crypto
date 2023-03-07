@@ -1,9 +1,7 @@
 PODS:
-  - Kingfisher (7.3.2)
   - SwiftFormat/CLI (0.50.9)
 
 DEPENDENCIES:
-  - Kingfisher (~> 7.3.0)
   - SwiftFormat/CLI (~> 0.49)
 
 SPEC REPOS:
@@ -11,9 +9,8 @@ SPEC REPOS:
     - SwiftFormat
 
 SPEC CHECKSUMS:
-  Kingfisher: 0086ad83719761ba9b2cdaf6ef4d5b4878cbae23
   SwiftFormat: 823c799054862ecd9143ff00de06997f5e68967c
 
-PODFILE CHECKSUM: 498f2ec3e92986deda8cd306fadf7d4cb2da79bc
+PODFILE CHECKSUM: dfbc13dc793a4b1b6007209a0bbac23d7a8b50be
 
 COCOAPODS: 1.11.3

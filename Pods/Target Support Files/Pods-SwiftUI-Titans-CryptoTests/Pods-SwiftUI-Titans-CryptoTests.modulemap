@@ -1,0 +1,6 @@
+framework module Pods_SwiftUI_Titans_CryptoTests {
+  umbrella header "Pods-SwiftUI-Titans-CryptoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
