@@ -30,6 +30,7 @@
 		D110F75B29B029F8008C8B49 /* TradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75A29B029F8008C8B49 /* TradesView.swift */; };
 		D110F75D29B02A07008C8B49 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75C29B02A07008C8B49 /* ActivityView.swift */; };
 		D110F75F29B02A14008C8B49 /* WalletsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75E29B02A14008C8B49 /* WalletsView.swift */; };
+		D1EF864229B2C10B00AC9A7D /* Componentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EF864129B2C10B00AC9A7D /* Componentes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		D110F75A29B029F8008C8B49 /* TradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradesView.swift; sourceTree = "<group>"; };
 		D110F75C29B02A07008C8B49 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		D110F75E29B02A14008C8B49 /* WalletsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsView.swift; sourceTree = "<group>"; };
+		D1EF864129B2C10B00AC9A7D /* Componentes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Componentes.swift; sourceTree = "<group>"; };
 		E15B3EA591CEED8401F91A5A /* Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7907746543C44D34C354E39 /* Pods-SwiftUI-Titans-Crypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Titans-Crypto.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,6 +149,7 @@
 		D110F70D29B025CD008C8B49 /* SwiftUI-Titans-Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				D1EF864029B2C0EF00AC9A7D /* Componentes */,
 				D110F73E29B02668008C8B49 /* Views */,
 				D110F73D29B0265B008C8B49 /* App */,
 				D110F71029B025CD008C8B49 /* ContentView.swift */,
@@ -297,6 +300,14 @@
 			path = Wallets;
 			sourceTree = "<group>";
 		};
+		D1EF864029B2C0EF00AC9A7D /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				D1EF864129B2C10B00AC9A7D /* Componentes.swift */,
+			);
+			path = Componentes;
+			sourceTree = "<group>";
+		};
 		E97A2D95C202C1D4EBDC1158 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,7 +333,6 @@
 				D110F70829B025CD008C8B49 /* Frameworks */,
 				D110F70929B025CD008C8B49 /* Resources */,
 				D110F76029B02E53008C8B49 /* SwiftFormat Run Script */,
-				5F33D9BF942EF066D07A5D0C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -360,7 +370,6 @@
 				D110F72629B025D9008C8B49 /* Sources */,
 				D110F72729B025D9008C8B49 /* Frameworks */,
 				D110F72829B025D9008C8B49 /* Resources */,
-				484E9C6BF3CDFD92CB03A586 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -464,40 +473,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		484E9C6BF3CDFD92CB03A586 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5F33D9BF942EF066D07A5D0C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5FDACCB600CF52772F543747 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -574,6 +549,7 @@
 				D110F75B29B029F8008C8B49 /* TradesView.swift in Sources */,
 				D110F74129B026D3008C8B49 /* BienvenidaView.swift in Sources */,
 				D110F75729B029E1008C8B49 /* HomeView.swift in Sources */,
+				D1EF864229B2C10B00AC9A7D /* Componentes.swift in Sources */,
 				D110F75929B029EE008C8B49 /* MarketsView.swift in Sources */,
 				D110F70F29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift in Sources */,
 				D110F71B29B025D8008C8B49 /* SwiftUI_Titans_Crypto.xcdatamodeld in Sources */,

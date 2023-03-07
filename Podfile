@@ -7,9 +7,7 @@ target 'SwiftUI-Titans-Crypto' do
 
   # Pods for SwiftUI-Titans-Crypto
   pod 'SwiftFormat/CLI', '~> 0.49'
-  pod 'Kingfisher', '~> 7.0'
-
-
+  
   target 'SwiftUI-Titans-CryptoTests' do
     inherit! :search_paths
     # Pods for testing

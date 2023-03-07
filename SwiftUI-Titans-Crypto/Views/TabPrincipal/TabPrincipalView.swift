@@ -12,7 +12,7 @@ struct TabPrincipalView: View {
         TabView {
             HomeView()
                 .tabItem {
-                    Label("Home", systemImage: "list.dash")
+                    Label("Home", systemImage: "house.fill")
                 }
                 .tag(1)
             MarketsView()
