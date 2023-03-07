@@ -56,12 +56,7 @@ func PantallaSignIn(email: Binding<String>, pasword: Binding<String>) -> some Vi
         NavigationLink {
             TabPrincipalView()
         } label: {
-            Text("Sign in")
-                .padding()
-                .frame(width: 290, height: 50)
-                .foregroundColor(Color.black)
-                .background(Color("ColorTexto"))
-                .cornerRadius(10)
+            BottonVerde(nombreBotton: "Sign in")
         }
 
         Text("Or login with")
@@ -148,12 +143,7 @@ func PantallaSingUp(email: Binding<String>, pasword: Binding<String>) -> some Vi
         NavigationLink {
             RegisterMobileView()
         } label: {
-            Text("Sign up")
-                .padding()
-                .frame(width: 290, height: 50)
-                .foregroundColor(Color.black)
-                .background(Color("ColorTexto"))
-                .cornerRadius(10)
+            BottonVerde(nombreBotton: "Sign up")
         }
 
         Text("Or login with")
@@ -199,10 +189,11 @@ func PantallaSingUp(email: Binding<String>, pasword: Binding<String>) -> some Vi
     }
 }
 
-func BottonVerde(nombreBotton: String) -> some View {
+func BottonVerde(nombreBotton: String, ancho: CGFloat = 340, alto: CGFloat = 50) -> some View {
     return Text(nombreBotton)
         .padding()
-        .frame(width: 340, height: 50)
+        // 340, 50
+        .frame(width: ancho, height: alto)
         .foregroundColor(Color.black)
         .background(Color("ColorTexto"))
         .cornerRadius(10)

@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = SwiftFormat;
+			productName = SwiftFormat;
 		};
 /* End PBXAggregateTarget section */
 
@@ -74,8 +75,8 @@
 		7EFB3FA6FE446D75E206A0D0778730D4 /* Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8892832204F6F6E1062FEB8613E8FA6F /* Pods-SwiftUI-Titans-CryptoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI-Titans-CryptoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8CF5AD24F9983EB815FB0ABF4D639DF8 /* Pods-SwiftUI-Titans-Crypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI-Titans-Crypto.debug.xcconfig"; sourceTree = "<group>"; };
-		965643965C7DE48CF1CE7BBA5D885FF6 /* Pods-SwiftUI-Titans-Crypto */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftUI-Titans-Crypto"; path = Pods_SwiftUI_Titans_Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		965643965C7DE48CF1CE7BBA5D885FF6 /* Pods_SwiftUI_Titans_Crypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Titans_Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A517FDBDBF0E2447D449F7B80BDF759B /* Pods-SwiftUI-Titans-CryptoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUI-Titans-CryptoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A54AB1336C0E84ABECF26F4A47F0D1B2 /* Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B06428CA40F178FACAFAFF15AF1D3C9B /* Pods-SwiftUI-Titans-Crypto-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUI-Titans-Crypto-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -119,7 +120,7 @@
 		08C9508CD6F810850678FFA295896BDF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				965643965C7DE48CF1CE7BBA5D885FF6 /* Pods-SwiftUI-Titans-Crypto */,
+				965643965C7DE48CF1CE7BBA5D885FF6 /* Pods_SwiftUI_Titans_Crypto.framework */,
 				321EF0DD9DDCD2EBF003859CB02E1321 /* Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests */,
 				2FEEB0BDA67F3B338788D1F0A4DFB4F5 /* Pods-SwiftUI-Titans-CryptoTests */,
 			);
@@ -131,7 +132,6 @@
 			children = (
 				A8D95101B1D4FCD6178A65333A06533B /* Support Files */,
 			);
-			name = SwiftFormat;
 			path = SwiftFormat;
 			sourceTree = "<group>";
 		};
@@ -284,7 +284,7 @@
 			);
 			name = "Pods-SwiftUI-Titans-Crypto";
 			productName = Pods_SwiftUI_Titans_Crypto;
-			productReference = 965643965C7DE48CF1CE7BBA5D885FF6 /* Pods-SwiftUI-Titans-Crypto */;
+			productReference = 965643965C7DE48CF1CE7BBA5D885FF6 /* Pods_SwiftUI_Titans_Crypto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		556666FD94CB881DB134D0C35C937DED /* Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests */ = {

@@ -32,6 +32,7 @@
 		D110F75B29B029F8008C8B49 /* TradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75A29B029F8008C8B49 /* TradesView.swift */; };
 		D110F75D29B02A07008C8B49 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75C29B02A07008C8B49 /* ActivityView.swift */; };
 		D110F75F29B02A14008C8B49 /* WalletsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75E29B02A14008C8B49 /* WalletsView.swift */; };
+		D18E6D1A29B6BCEF0017F736 /* BienvenidaModelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D1929B6BCEF0017F736 /* BienvenidaModelo.swift */; };
 		D1EF864229B2C10B00AC9A7D /* Componentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EF864129B2C10B00AC9A7D /* Componentes.swift */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		D110F75A29B029F8008C8B49 /* TradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradesView.swift; sourceTree = "<group>"; };
 		D110F75C29B02A07008C8B49 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		D110F75E29B02A14008C8B49 /* WalletsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsView.swift; sourceTree = "<group>"; };
+		D18E6D1929B6BCEF0017F736 /* BienvenidaModelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienvenidaModelo.swift; sourceTree = "<group>"; };
 		D1EF864129B2C10B00AC9A7D /* Componentes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Componentes.swift; sourceTree = "<group>"; };
 		E15B3EA591CEED8401F91A5A /* Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7907746543C44D34C354E39 /* Pods-SwiftUI-Titans-Crypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Titans-Crypto.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		D110F70D29B025CD008C8B49 /* SwiftUI-Titans-Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				D18E6D1729B6BCBE0017F736 /* Dominio */,
 				D1EF864029B2C0EF00AC9A7D /* Componentes */,
 				D110F73E29B02668008C8B49 /* Views */,
 				D110F73D29B0265B008C8B49 /* App */,
@@ -306,6 +309,22 @@
 			path = Wallets;
 			sourceTree = "<group>";
 		};
+		D18E6D1729B6BCBE0017F736 /* Dominio */ = {
+			isa = PBXGroup;
+			children = (
+				D18E6D1829B6BCD00017F736 /* Modelos */,
+			);
+			path = Dominio;
+			sourceTree = "<group>";
+		};
+		D18E6D1829B6BCD00017F736 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				D18E6D1929B6BCEF0017F736 /* BienvenidaModelo.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
 		D1EF864029B2C0EF00AC9A7D /* Componentes */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +358,7 @@
 				D110F70829B025CD008C8B49 /* Frameworks */,
 				D110F70929B025CD008C8B49 /* Resources */,
 				D110F76029B02E53008C8B49 /* SwiftFormat Run Script */,
+				A9A0A15A746C2604286D1B13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -376,6 +396,7 @@
 				D110F72629B025D9008C8B49 /* Sources */,
 				D110F72729B025D9008C8B49 /* Frameworks */,
 				D110F72829B025D9008C8B49 /* Resources */,
+				0D0C1F5CE0B86549740BC81E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -479,6 +500,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		0D0C1F5CE0B86549740BC81E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests/Pods-SwiftUI-Titans-Crypto-SwiftUI-Titans-CryptoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5FDACCB600CF52772F543747 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -523,6 +561,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A9A0A15A746C2604286D1B13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D110F76029B02E53008C8B49 /* SwiftFormat Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -562,6 +617,7 @@
 				D110F75029B0297C008C8B49 /* TabPrincipalView.swift in Sources */,
 				D110F75D29B02A07008C8B49 /* ActivityView.swift in Sources */,
 				2B2D4B6129B6A80D00DEC623 /* PagingView.swift in Sources */,
+				D18E6D1A29B6BCEF0017F736 /* BienvenidaModelo.swift in Sources */,
 				D110F74D29B0291C008C8B49 /* CuentaCreadaView.swift in Sources */,
 				D110F74A29B028DE008C8B49 /* VerificationView.swift in Sources */,
 				2B2D4B6329B6B30800DEC623 /* PageControl.swift in Sources */,
