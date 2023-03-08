@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RegisterMobileView: View {
     @State private var numero: String = ""
+    @State private var viajarAVerication: Bool = false
 
     var body: some View {
         ZStack {
@@ -35,15 +36,16 @@ struct RegisterMobileView: View {
                     .cornerRadius(10)
                     .padding(.bottom, 40)
 
-                NavigationLink {
-                    VerificationView()
-                } label: {
-                    BottonVerde(nombreBotton: "Send OTP")
-                }
+                BottonVerde(nombreBotton: "Send OTP", clickEnBoton: {
+                    viajarAVerication = true
+                })
 
                 Spacer()
             }
             .padding()
+            NavigationLink(destination: VerificationView(), isActive: $viajarAVerication) {
+                EmptyView()
+            }
         }
     }
 }

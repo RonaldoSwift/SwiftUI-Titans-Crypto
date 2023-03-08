@@ -9,6 +9,7 @@ import SwiftUI
 
 struct BienvenidaView: View {
     @State var index = 0
+    @State private var viajarAAutentication: Bool = false
 
     var modelos: [BienvenidaModelo] = [
         BienvenidaModelo(id: "1", imagen: "BienvenidaUno", titulo: "Trade anytime anywhere", descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."),
@@ -31,11 +32,12 @@ struct BienvenidaView: View {
 
                     PageControl(index: $index, maxIndex: modelos.count - 1)
 
-                    NavigationLink {
-                        AutenticationView()
-                    } label: {
-                        BottonVerde(nombreBotton: "Next", ancho: 170, alto: 50)
-                    }
+                    BottonVerde(nombreBotton: "Next", ancho: 170, alto: 50, clickEnBoton: {
+                        viajarAAutentication = true
+                    })
+                }
+                NavigationLink(destination: AutenticationView(), isActive: $viajarAAutentication) {
+                    EmptyView()
                 }
             }
         }
@@ -46,7 +48,6 @@ struct BienvenidaView: View {
             Image(bienvnidaModelo.imagen)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 311, height: 349)
             Text(bienvnidaModelo.titulo)
             Text(bienvnidaModelo.descripcion)
         }

@@ -14,6 +14,9 @@ struct AutenticationView: View {
 
     @State private var email: String = ""
     @State private var pasword: String = ""
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    @State private var viajarATabPrincipal: Bool = false
+    @State private var viajarARegisterMobile: Bool = false
 
     var body: some View {
         ZStack {
@@ -24,7 +27,7 @@ struct AutenticationView: View {
                         Text(self.login[$0])
                     }
                 }
-                .padding(.bottom, 60)
+                .padding(.bottom, 30)
 
                 Text("\(self.login[selecionarPicker])")
                     .font(.largeTitle)
@@ -33,15 +36,39 @@ struct AutenticationView: View {
                     .padding(.bottom, 30)
 
                 if selecionarPicker == 0 {
-                    PantallaSignIn(email: $email, pasword: $pasword)
+                    PantallaSignIn(email: $email, pasword: $pasword, clickEnButonSignIn: {
+                        viajarATabPrincipal = true
+                    })
                 }
 
                 if selecionarPicker == 1 {
-                    PantallaSingUp(email: $email, pasword: $pasword)
+                    PantallaSingUp(email: $email, pasword: $pasword, clickEnSignUp: {
+                        viajarARegisterMobile = true
+                    })
                 }
+                Spacer()
             }
             .padding()
             .pickerStyle(SegmentedPickerStyle())
+            NavigationLink(destination: TabPrincipalView(), isActive: $viajarATabPrincipal) {
+                EmptyView()
+            }
+            NavigationLink(destination: RegisterMobileView(), isActive: $viajarARegisterMobile) {
+                EmptyView()
+            }
+        }
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading: CustomBackButton())
+    }
+
+    private func CustomBackButton() -> some View {
+        return Button {
+            self.presentationMode.wrappedValue.dismiss()
+        } label: {
+            Image("Back")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 24, height: 24)
         }
     }
 }

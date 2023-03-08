@@ -7,7 +7,9 @@ target 'SwiftUI-Titans-Crypto' do
 
   # Pods for SwiftUI-Titans-Crypto
   pod 'SwiftFormat/CLI', '~> 0.49'
-  pod 'Kingfisher', '~> 7.3.0'
+ 
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore'
 
 
   target 'SwiftUI-Titans-CryptoTests' do

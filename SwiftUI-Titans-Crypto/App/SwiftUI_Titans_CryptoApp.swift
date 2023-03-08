@@ -9,12 +9,11 @@ import SwiftUI
 
 @main
 struct SwiftUI_Titans_CryptoApp: App {
-    let persistenceController = PersistenceController.shared
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
 
     var body: some Scene {
         WindowGroup {
             BienvenidaView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

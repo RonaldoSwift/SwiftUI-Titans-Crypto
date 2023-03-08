@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct CuentaCreadaView: View {
+    @State private var viajarATabPrincipal: Bool = false
+
     var body: some View {
         ZStack {
             Color("FondoPrincipal").ignoresSafeArea()
@@ -22,14 +24,16 @@ struct CuentaCreadaView: View {
                     .bold()
                     .multilineTextAlignment(.center)
 
-                NavigationLink {
-                    TabPrincipalView()
-                } label: {
-                    BottonVerde(nombreBotton: "Get Started")
-                }
+                BottonVerde(nombreBotton: "Get Started", clickEnBoton: {
+                    viajarATabPrincipal = true
+                })
+
                 Spacer()
             }
             .padding()
+            NavigationLink(destination: TabPrincipalView(), isActive: $viajarATabPrincipal) {
+                EmptyView()
+            }
         }
     }
 }

@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-func PantallaSignIn(email: Binding<String>, pasword: Binding<String>) -> some View {
+func PantallaSignIn(email: Binding<String>, pasword: Binding<String>, clickEnButonSignIn: @escaping () -> Void) -> some View {
     VStack {
         HStack {
             Text("Mobile Number")
@@ -53,11 +53,9 @@ func PantallaSignIn(email: Binding<String>, pasword: Binding<String>) -> some Vi
         }
         .padding(.trailing, 190)
 
-        NavigationLink {
-            TabPrincipalView()
-        } label: {
-            BottonVerde(nombreBotton: "Sign in")
-        }
+        BottonVerde(nombreBotton: "Sign in", clickEnBoton: {
+            clickEnButonSignIn()
+        })
 
         Text("Or login with")
             .foregroundColor(Color.gray)
@@ -102,7 +100,7 @@ func PantallaSignIn(email: Binding<String>, pasword: Binding<String>) -> some Vi
     }
 }
 
-func PantallaSingUp(email: Binding<String>, pasword: Binding<String>) -> some View {
+func PantallaSingUp(email: Binding<String>, pasword: Binding<String>, clickEnSignUp: @escaping () -> Void) -> some View {
     VStack {
         HStack {
             Text("Email")
@@ -140,11 +138,9 @@ func PantallaSingUp(email: Binding<String>, pasword: Binding<String>) -> some Vi
         .cornerRadius(10)
         .padding(.bottom, 30)
 
-        NavigationLink {
-            RegisterMobileView()
-        } label: {
-            BottonVerde(nombreBotton: "Sign up")
-        }
+        BottonVerde(nombreBotton: "Sign up", clickEnBoton: {
+            clickEnSignUp()
+        })
 
         Text("Or login with")
             .foregroundColor(Color.gray)
@@ -189,14 +185,18 @@ func PantallaSingUp(email: Binding<String>, pasword: Binding<String>) -> some Vi
     }
 }
 
-func BottonVerde(nombreBotton: String, ancho: CGFloat = 340, alto: CGFloat = 50) -> some View {
-    return Text(nombreBotton)
-        .padding()
-        // 340, 50
-        .frame(width: ancho, height: alto)
-        .foregroundColor(Color.black)
-        .background(Color("ColorTexto"))
-        .cornerRadius(10)
+func BottonVerde(nombreBotton: String, ancho: CGFloat = 340, alto: CGFloat = 50, clickEnBoton: @escaping () -> Void) -> some View {
+    return Button {
+        clickEnBoton()
+    } label: {
+        Text(nombreBotton)
+            .padding()
+            // 340, 50
+            .frame(width: ancho, height: alto)
+            .foregroundColor(Color.black)
+            .background(Color("ColorTexto"))
+            .cornerRadius(10)
+    }
 }
 
 func BottonCodigoDeVerificacion(printNumero: String, imagenDeNumero: String) -> some View {

@@ -33,6 +33,9 @@
 		D110F75D29B02A07008C8B49 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75C29B02A07008C8B49 /* ActivityView.swift */; };
 		D110F75F29B02A14008C8B49 /* WalletsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75E29B02A14008C8B49 /* WalletsView.swift */; };
 		D18E6D1A29B6BCEF0017F736 /* BienvenidaModelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D1929B6BCEF0017F736 /* BienvenidaModelo.swift */; };
+		D18E6D1E29B7FED80017F736 /* AutenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D1D29B7FED80017F736 /* AutenticationViewModel.swift */; };
+		D18E6D2029B7FFC00017F736 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D18E6D1F29B7FFC00017F736 /* GoogleService-Info.plist */; };
+		D18E6D2329B802AC0017F736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D2229B802AC0017F736 /* AppDelegate.swift */; };
 		D1EF864229B2C10B00AC9A7D /* Componentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EF864129B2C10B00AC9A7D /* Componentes.swift */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +90,10 @@
 		D110F75C29B02A07008C8B49 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		D110F75E29B02A14008C8B49 /* WalletsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsView.swift; sourceTree = "<group>"; };
 		D18E6D1929B6BCEF0017F736 /* BienvenidaModelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienvenidaModelo.swift; sourceTree = "<group>"; };
+		D18E6D1B29B7D1E20017F736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D18E6D1D29B7FED80017F736 /* AutenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutenticationViewModel.swift; sourceTree = "<group>"; };
+		D18E6D1F29B7FFC00017F736 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D18E6D2229B802AC0017F736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1EF864129B2C10B00AC9A7D /* Componentes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Componentes.swift; sourceTree = "<group>"; };
 		E15B3EA591CEED8401F91A5A /* Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7907746543C44D34C354E39 /* Pods-SwiftUI-Titans-Crypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Titans-Crypto.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto.release.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +162,8 @@
 		D110F70D29B025CD008C8B49 /* SwiftUI-Titans-Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				D18E6D1F29B7FFC00017F736 /* GoogleService-Info.plist */,
+				D18E6D1B29B7D1E20017F736 /* Info.plist */,
 				D18E6D1729B6BCBE0017F736 /* Dominio */,
 				D1EF864029B2C0EF00AC9A7D /* Componentes */,
 				D110F73E29B02668008C8B49 /* Views */,
@@ -197,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				D110F70E29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift */,
+				D18E6D2229B802AC0017F736 /* AppDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -228,6 +238,7 @@
 				D110F74829B028CB008C8B49 /* Verification */,
 				D110F74529B02885008C8B49 /* RegisterMobile */,
 				D110F74329B0271C008C8B49 /* AutenticationView.swift */,
+				D18E6D1D29B7FED80017F736 /* AutenticationViewModel.swift */,
 			);
 			path = Autentication;
 			sourceTree = "<group>";
@@ -457,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D110F71629B025D8008C8B49 /* Preview Assets.xcassets in Resources */,
+				D18E6D2029B7FFC00017F736 /* GoogleService-Info.plist in Resources */,
 				D110F71329B025D8008C8B49 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,8 +630,10 @@
 				D110F75D29B02A07008C8B49 /* ActivityView.swift in Sources */,
 				2B2D4B6129B6A80D00DEC623 /* PagingView.swift in Sources */,
 				D18E6D1A29B6BCEF0017F736 /* BienvenidaModelo.swift in Sources */,
+				D18E6D1E29B7FED80017F736 /* AutenticationViewModel.swift in Sources */,
 				D110F74D29B0291C008C8B49 /* CuentaCreadaView.swift in Sources */,
 				D110F74A29B028DE008C8B49 /* VerificationView.swift in Sources */,
+				D18E6D2329B802AC0017F736 /* AppDelegate.swift in Sources */,
 				2B2D4B6329B6B30800DEC623 /* PageControl.swift in Sources */,
 				D110F75F29B02A14008C8B49 /* WalletsView.swift in Sources */,
 			);
@@ -784,9 +798,9 @@
 				DEVELOPMENT_TEAM = H9JXH336V5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Titans-Crypto/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -815,9 +829,9 @@
 				DEVELOPMENT_TEAM = H9JXH336V5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Titans-Crypto/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

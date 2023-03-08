@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct VerificationView: View {
+    @State private var viaharACuentaCreada: Bool = false
     var body: some View {
         ZStack {
             Color("FondoPrincipal").ignoresSafeArea()
@@ -47,15 +48,16 @@ struct VerificationView: View {
                 }
                 .padding(.bottom, 40)
 
-                NavigationLink {
-                    CuentaCreadaView()
-                } label: {
-                    BottonVerde(nombreBotton: "Continue")
-                }
+                BottonVerde(nombreBotton: "Continue", clickEnBoton: {
+                    viaharACuentaCreada = true
+                })
 
                 Spacer()
             }
             .padding()
+            NavigationLink(destination: CuentaCreadaView(), isActive: $viaharACuentaCreada) {
+                EmptyView()
+            }
         }
     }
 }

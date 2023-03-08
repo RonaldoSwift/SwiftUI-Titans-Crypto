@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>241515034708-dla5a12tviq115htaod7uvibq6ceks43.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.241515034708-dla5a12tviq115htaod7uvibq6ceks43</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBVl4azeEC_YJTSXGQUEv6wjwEckFiHeUE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>241515034708</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.laclave.SwiftUI-Titans-Crypto</string>
+	<key>PROJECT_ID</key>
+	<string>upn-firebase-proyect</string>
+	<key>STORAGE_BUCKET</key>
+	<string>upn-firebase-proyect.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:241515034708:ios:dd770216b93db0871a55c1</string>
+</dict>
+</plist>
