@@ -17,25 +17,27 @@ struct TabPrincipalView: View {
                 .tag(1)
             MarketsView()
                 .tabItem {
-                    Label("Markets", systemImage: "list.dash")
+                    Label("Markets", systemImage: "handbag")
                 }
                 .tag(2)
             TradesView()
                 .tabItem {
-                    Label("Trades", systemImage: "list.dash")
+                    Label("Trades", systemImage: "dollarsign.circle.fill")
                 }
                 .tag(3)
             ActivityView()
                 .tabItem {
-                    Label("Activity", systemImage: "list.dash")
+                    Label("Activity", systemImage: "bookmark.fill")
                 }
                 .tag(4)
             WalletsView()
                 .tabItem {
-                    Label("Wallets", systemImage: "list.dash")
+                    Label("Wallets", systemImage: "bag.fill")
                 }
                 .tag(5)
         }
+        .accentColor(Color.gray)
+        .navigationBarBackButtonHidden(true)
     }
 }
 

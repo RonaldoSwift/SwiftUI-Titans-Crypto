@@ -36,6 +36,8 @@
 		D18E6D1E29B7FED80017F736 /* AutenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D1D29B7FED80017F736 /* AutenticationViewModel.swift */; };
 		D18E6D2029B7FFC00017F736 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D18E6D1F29B7FFC00017F736 /* GoogleService-Info.plist */; };
 		D18E6D2329B802AC0017F736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D2229B802AC0017F736 /* AppDelegate.swift */; };
+		D18E6D2529B9554E0017F736 /* AppSharedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D2429B9554E0017F736 /* AppSharedViewModel.swift */; };
+		D18E6D2729B958D60017F736 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D2629B958D60017F736 /* HomeViewModel.swift */; };
 		D1EF864229B2C10B00AC9A7D /* Componentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EF864129B2C10B00AC9A7D /* Componentes.swift */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +96,8 @@
 		D18E6D1D29B7FED80017F736 /* AutenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutenticationViewModel.swift; sourceTree = "<group>"; };
 		D18E6D1F29B7FFC00017F736 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D18E6D2229B802AC0017F736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D18E6D2429B9554E0017F736 /* AppSharedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSharedViewModel.swift; sourceTree = "<group>"; };
+		D18E6D2629B958D60017F736 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		D1EF864129B2C10B00AC9A7D /* Componentes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Componentes.swift; sourceTree = "<group>"; };
 		E15B3EA591CEED8401F91A5A /* Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7907746543C44D34C354E39 /* Pods-SwiftUI-Titans-Crypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Titans-Crypto.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto.release.xcconfig"; sourceTree = "<group>"; };
@@ -207,6 +211,7 @@
 			children = (
 				D110F70E29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift */,
 				D18E6D2229B802AC0017F736 /* AppDelegate.swift */,
+				D18E6D2429B9554E0017F736 /* AppSharedViewModel.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				D110F75629B029E1008C8B49 /* HomeView.swift */,
+				D18E6D2629B958D60017F736 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -620,8 +626,10 @@
 				D110F71129B025CD008C8B49 /* ContentView.swift in Sources */,
 				D110F74729B028B2008C8B49 /* RegisterMobileView.swift in Sources */,
 				D110F75B29B029F8008C8B49 /* TradesView.swift in Sources */,
+				D18E6D2729B958D60017F736 /* HomeViewModel.swift in Sources */,
 				D110F74129B026D3008C8B49 /* BienvenidaView.swift in Sources */,
 				D110F75729B029E1008C8B49 /* HomeView.swift in Sources */,
+				D18E6D2529B9554E0017F736 /* AppSharedViewModel.swift in Sources */,
 				D1EF864229B2C10B00AC9A7D /* Componentes.swift in Sources */,
 				D110F75929B029EE008C8B49 /* MarketsView.swift in Sources */,
 				D110F70F29B025CD008C8B49 /* SwiftUI_Titans_CryptoApp.swift in Sources */,

@@ -5,11 +5,13 @@
 //  Created by Ronaldo on 1/03/23.
 //
 
+import FirebaseAuth
 import SwiftUI
 
 struct BienvenidaView: View {
     @State var index = 0
     @State private var viajarAAutentication: Bool = false
+    @State private var viajarATabPrincipal: Bool = false
 
     var modelos: [BienvenidaModelo] = [
         BienvenidaModelo(id: "1", imagen: "BienvenidaUno", titulo: "Trade anytime anywhere", descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."),
@@ -39,6 +41,17 @@ struct BienvenidaView: View {
                 NavigationLink(destination: AutenticationView(), isActive: $viajarAAutentication) {
                     EmptyView()
                 }
+
+                NavigationLink(destination: TabPrincipalView(), isActive: $viajarATabPrincipal) {
+                    EmptyView()
+                }
+            }
+        }
+        .onAppear {
+            Auth.auth().addStateDidChangeListener { (_: Auth, user: User?) in
+                if user != nil {
+                    viajarATabPrincipal = true
+                }
             }
         }
     }
@@ -49,7 +62,12 @@ struct BienvenidaView: View {
                 .resizable()
                 .scaledToFit()
             Text(bienvnidaModelo.titulo)
+                .font(.title2)
+                .bold()
+                .padding(.bottom, 10)
             Text(bienvnidaModelo.descripcion)
+                .foregroundColor(Color.gray)
+                .multilineTextAlignment(.center)
         }
     }
 }

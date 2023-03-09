@@ -11,12 +11,15 @@ import SwiftUI
 struct AutenticationView: View {
     var login = ["Sign in", "Sign up"]
     @State private var selecionarPicker = 0
+    var autenticationViewModel: AutenticationViewModel = .init()
 
     @State private var email: String = ""
     @State private var pasword: String = ""
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     @State private var viajarATabPrincipal: Bool = false
     @State private var viajarARegisterMobile: Bool = false
+    @State private var estaCargando: Bool = false
+    @State private var mostrarErrorAlert: Bool = false
 
     var body: some View {
         ZStack {
@@ -35,15 +38,19 @@ struct AutenticationView: View {
                     .padding(.trailing, 210)
                     .padding(.bottom, 30)
 
+                if estaCargando == true {
+                    ProgressView()
+                }
+
                 if selecionarPicker == 0 {
                     PantallaSignIn(email: $email, pasword: $pasword, clickEnButonSignIn: {
-                        viajarATabPrincipal = true
+                        autenticationViewModel.signIn(email: email, pasword: pasword)
                     })
                 }
 
                 if selecionarPicker == 1 {
                     PantallaSingUp(email: $email, pasword: $pasword, clickEnSignUp: {
-                        viajarARegisterMobile = true
+                        autenticationViewModel.signUp(email: email, pasword: pasword)
                     })
                 }
                 Spacer()
@@ -53,12 +60,21 @@ struct AutenticationView: View {
             NavigationLink(destination: TabPrincipalView(), isActive: $viajarATabPrincipal) {
                 EmptyView()
             }
-            NavigationLink(destination: RegisterMobileView(), isActive: $viajarARegisterMobile) {
-                EmptyView()
-            }
         }
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(leading: CustomBackButton())
+        .alert(isPresented: $mostrarErrorAlert, content: {
+            Alert(title: Text("hubo un error"))
+        })
+        .onReceive(autenticationViewModel.$estaCargando) { estaCargando in
+            self.estaCargando = estaCargando
+        }
+        .onReceive(autenticationViewModel.$irATabPrincipal) { irATapPrincipal in
+            self.viajarATabPrincipal = irATapPrincipal
+        }
+        .onReceive(autenticationViewModel.$mostrarErrorAlert) { mostrarAlerta in
+            self.mostrarErrorAlert = mostrarAlerta
+        }
     }
 
     private func CustomBackButton() -> some View {

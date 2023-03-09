@@ -106,8 +106,12 @@ func PantallaSingUp(email: Binding<String>, pasword: Binding<String>, clickEnSig
             Text("Email")
                 .foregroundColor(Color("ColorTextoRegisterMobile"))
             Spacer()
-            Text("Register with mobile")
-                .foregroundColor(Color("ColorTexto"))
+            NavigationLink {
+                RegisterMobileView()
+            } label: {
+                Text("Register with mobile")
+                    .foregroundColor(Color("ColorTexto"))
+            }
         }
 
         HStack {
@@ -185,7 +189,7 @@ func PantallaSingUp(email: Binding<String>, pasword: Binding<String>, clickEnSig
     }
 }
 
-func BottonVerde(nombreBotton: String, ancho: CGFloat = 340, alto: CGFloat = 50, clickEnBoton: @escaping () -> Void) -> some View {
+func BottonVerde(colorFondo: String = "ColorTexto", nombreBotton: String, ancho: CGFloat = 340, alto: CGFloat = 50, clickEnBoton: @escaping () -> Void) -> some View {
     return Button {
         clickEnBoton()
     } label: {
@@ -194,7 +198,7 @@ func BottonVerde(nombreBotton: String, ancho: CGFloat = 340, alto: CGFloat = 50,
             // 340, 50
             .frame(width: ancho, height: alto)
             .foregroundColor(Color.black)
-            .background(Color("ColorTexto"))
+            .background(Color(colorFondo))
             .cornerRadius(10)
     }
 }
@@ -207,5 +211,31 @@ func BottonCodigoDeVerificacion(printNumero: String, imagenDeNumero: String) -> 
             .resizable()
             .scaledToFit()
             .frame(width: 50, height: 44)
+    }
+}
+
+func ParteSuperior(clickEnPerfilDeUsuario: @escaping () -> Void) -> some View {
+    return HStack {
+        Button {
+            clickEnPerfilDeUsuario()
+        } label: {
+            Image("PerfilImage")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 23, height: 23)
+        }
+        Spacer()
+        Image("Lupa")
+            .resizable()
+            .scaledToFit()
+            .frame(width: 23, height: 23)
+        Image("Scaner")
+            .resizable()
+            .scaledToFit()
+            .frame(width: 23, height: 23)
+        Image("Campana")
+            .resizable()
+            .scaledToFit()
+            .frame(width: 19, height: 19)
     }
 }
