@@ -9,7 +9,9 @@ import SwiftUI
 
 struct RegisterMobileView: View {
     @State private var numero: String = ""
-    @State private var viajarAVerication: Bool = false
+    var registerMobileViewModel: RegisterMobileViewModel = .init()
+    @State private var mostrarAlertaDeError: Bool = false
+    @State private var viajarAVerification: Bool = false
 
     var body: some View {
         ZStack {
@@ -37,15 +39,24 @@ struct RegisterMobileView: View {
                     .padding(.bottom, 40)
 
                 BottonVerde(nombreBotton: "Send OTP", clickEnBoton: {
-                    viajarAVerication = true
+                    registerMobileViewModel.registrarNumeroDeTelefono(numeroDeTelefono: numero)
                 })
 
                 Spacer()
             }
             .padding()
-            NavigationLink(destination: VerificationView(), isActive: $viajarAVerication) {
+            NavigationLink(destination: VerificationView(), isActive: $viajarAVerification) {
                 EmptyView()
             }
+        }
+        .alert(isPresented: $mostrarAlertaDeError, content: {
+            Alert(title: Text("Hubo un error"))
+        })
+        .onReceive(registerMobileViewModel.$mostrarError, perform: { mostrarError in
+            self.mostrarAlertaDeError = mostrarError
+        })
+        .onReceive(registerMobileViewModel.$viajarAVerificationView) { viajarVerificationView in
+            self.viajarAVerification = viajarVerificationView
         }
     }
 }

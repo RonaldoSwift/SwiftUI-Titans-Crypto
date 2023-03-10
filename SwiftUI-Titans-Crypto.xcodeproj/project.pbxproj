@@ -38,6 +38,7 @@
 		D18E6D2329B802AC0017F736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D2229B802AC0017F736 /* AppDelegate.swift */; };
 		D18E6D2529B9554E0017F736 /* AppSharedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D2429B9554E0017F736 /* AppSharedViewModel.swift */; };
 		D18E6D2729B958D60017F736 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D2629B958D60017F736 /* HomeViewModel.swift */; };
+		D18E6D2929B95D960017F736 /* RegisterMobileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D2829B95D950017F736 /* RegisterMobileViewModel.swift */; };
 		D1EF864229B2C10B00AC9A7D /* Componentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EF864129B2C10B00AC9A7D /* Componentes.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +99,8 @@
 		D18E6D2229B802AC0017F736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D18E6D2429B9554E0017F736 /* AppSharedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSharedViewModel.swift; sourceTree = "<group>"; };
 		D18E6D2629B958D60017F736 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D18E6D2829B95D950017F736 /* RegisterMobileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterMobileViewModel.swift; sourceTree = "<group>"; };
+		D18E6D2A29B9675B0017F736 /* SwiftUI-Titans-Crypto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-Titans-Crypto.entitlements"; sourceTree = "<group>"; };
 		D1EF864129B2C10B00AC9A7D /* Componentes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Componentes.swift; sourceTree = "<group>"; };
 		E15B3EA591CEED8401F91A5A /* Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7907746543C44D34C354E39 /* Pods-SwiftUI-Titans-Crypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Titans-Crypto.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto.release.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +169,7 @@
 		D110F70D29B025CD008C8B49 /* SwiftUI-Titans-Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				D18E6D2A29B9675B0017F736 /* SwiftUI-Titans-Crypto.entitlements */,
 				D18E6D1F29B7FFC00017F736 /* GoogleService-Info.plist */,
 				D18E6D1B29B7D1E20017F736 /* Info.plist */,
 				D18E6D1729B6BCBE0017F736 /* Dominio */,
@@ -252,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				D110F74629B028B2008C8B49 /* RegisterMobileView.swift */,
+				D18E6D2829B95D950017F736 /* RegisterMobileViewModel.swift */,
 			);
 			path = RegisterMobile;
 			sourceTree = "<group>";
@@ -622,6 +627,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D110F71829B025D8008C8B49 /* Persistence.swift in Sources */,
+				D18E6D2929B95D960017F736 /* RegisterMobileViewModel.swift in Sources */,
 				D110F74429B0271C008C8B49 /* AutenticationView.swift in Sources */,
 				D110F71129B025CD008C8B49 /* ContentView.swift in Sources */,
 				D110F74729B028B2008C8B49 /* RegisterMobileView.swift in Sources */,
@@ -800,6 +806,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Titans-Crypto/SwiftUI-Titans-Crypto.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Titans-Crypto/Preview Content\"";
@@ -819,6 +827,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.laclave.SwiftUI-Titans-Crypto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -831,6 +840,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Titans-Crypto/SwiftUI-Titans-Crypto.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Titans-Crypto/Preview Content\"";
@@ -850,6 +861,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.laclave.SwiftUI-Titans-Crypto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
