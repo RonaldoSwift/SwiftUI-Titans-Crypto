@@ -15,7 +15,7 @@ func PantallaSignIn(email: Binding<String>, pasword: Binding<String>, clickEnBut
                 .foregroundColor(Color("ColorTextoRegisterMobile"))
             Spacer()
             Text("Sign in with email")
-                .foregroundColor(Color("ColorTexto"))
+                .foregroundColor(Color(COLOR_ACCENT))
         }
 
         HStack {
@@ -49,7 +49,7 @@ func PantallaSignIn(email: Binding<String>, pasword: Binding<String>, clickEnBut
             print("Password")
         } label: {
             Text("Forgot password?")
-                .foregroundColor(Color("ColorTexto"))
+                .foregroundColor(Color(COLOR_ACCENT))
         }
         .padding(.trailing, 190)
 
@@ -110,7 +110,7 @@ func PantallaSingUp(email: Binding<String>, pasword: Binding<String>, clickEnSig
                 RegisterMobileView()
             } label: {
                 Text("Register with mobile")
-                    .foregroundColor(Color("ColorTexto"))
+                    .foregroundColor(Color(COLOR_ACCENT))
             }
         }
 
@@ -189,7 +189,7 @@ func PantallaSingUp(email: Binding<String>, pasword: Binding<String>, clickEnSig
     }
 }
 
-func BottonVerde(colorFondo: String = "ColorTexto", nombreBotton: String, ancho: CGFloat = 340, alto: CGFloat = 50, clickEnBoton: @escaping () -> Void) -> some View {
+func BottonVerde(colorFondo: String = COLOR_ACCENT, nombreBotton: String, ancho: CGFloat = 340, alto: CGFloat = 50, clickEnBoton: @escaping () -> Void) -> some View {
     return Button {
         clickEnBoton()
     } label: {

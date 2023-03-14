@@ -32,6 +32,10 @@
 		D110F75B29B029F8008C8B49 /* TradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75A29B029F8008C8B49 /* TradesView.swift */; };
 		D110F75D29B02A07008C8B49 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75C29B02A07008C8B49 /* ActivityView.swift */; };
 		D110F75F29B02A14008C8B49 /* WalletsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110F75E29B02A14008C8B49 /* WalletsView.swift */; };
+		D14E848629BF7C9C00852419 /* QrCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14E848529BF7C9C00852419 /* QrCodeScannerView.swift */; };
+		D14E848829BF7CBE00852419 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14E848729BF7CBE00852419 /* CameraPreview.swift */; };
+		D14E848A29BF7D5100852419 /* QrCodeCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14E848929BF7D5100852419 /* QrCodeCameraDelegate.swift */; };
+		D14E848E29BF81B700852419 /* WalletsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14E848D29BF81B700852419 /* WalletsViewModel.swift */; };
 		D18E6D1A29B6BCEF0017F736 /* BienvenidaModelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D1929B6BCEF0017F736 /* BienvenidaModelo.swift */; };
 		D18E6D1E29B7FED80017F736 /* AutenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D1D29B7FED80017F736 /* AutenticationViewModel.swift */; };
 		D18E6D2029B7FFC00017F736 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D18E6D1F29B7FFC00017F736 /* GoogleService-Info.plist */; };
@@ -39,6 +43,9 @@
 		D18E6D2529B9554E0017F736 /* AppSharedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D2429B9554E0017F736 /* AppSharedViewModel.swift */; };
 		D18E6D2729B958D60017F736 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D2629B958D60017F736 /* HomeViewModel.swift */; };
 		D18E6D2929B95D960017F736 /* RegisterMobileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D2829B95D950017F736 /* RegisterMobileViewModel.swift */; };
+		D18E6D2C29BBB9290017F736 /* WalletsQRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E6D2B29BBB9290017F736 /* WalletsQRView.swift */; };
+		D1B0DCB929BFF6C6003A074A /* CameraShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B0DCB829BFF6C6003A074A /* CameraShape.swift */; };
+		D1B0DCBC29C000F4003A074A /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B0DCBB29C000F4003A074A /* Constantes.swift */; };
 		D1EF864229B2C10B00AC9A7D /* Componentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EF864129B2C10B00AC9A7D /* Componentes.swift */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +99,10 @@
 		D110F75A29B029F8008C8B49 /* TradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradesView.swift; sourceTree = "<group>"; };
 		D110F75C29B02A07008C8B49 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		D110F75E29B02A14008C8B49 /* WalletsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsView.swift; sourceTree = "<group>"; };
+		D14E848529BF7C9C00852419 /* QrCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeScannerView.swift; sourceTree = "<group>"; };
+		D14E848729BF7CBE00852419 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		D14E848929BF7D5100852419 /* QrCodeCameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeCameraDelegate.swift; sourceTree = "<group>"; };
+		D14E848D29BF81B700852419 /* WalletsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsViewModel.swift; sourceTree = "<group>"; };
 		D18E6D1929B6BCEF0017F736 /* BienvenidaModelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienvenidaModelo.swift; sourceTree = "<group>"; };
 		D18E6D1B29B7D1E20017F736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D18E6D1D29B7FED80017F736 /* AutenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutenticationViewModel.swift; sourceTree = "<group>"; };
@@ -101,6 +112,9 @@
 		D18E6D2629B958D60017F736 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		D18E6D2829B95D950017F736 /* RegisterMobileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterMobileViewModel.swift; sourceTree = "<group>"; };
 		D18E6D2A29B9675B0017F736 /* SwiftUI-Titans-Crypto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-Titans-Crypto.entitlements"; sourceTree = "<group>"; };
+		D18E6D2B29BBB9290017F736 /* WalletsQRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsQRView.swift; sourceTree = "<group>"; };
+		D1B0DCB829BFF6C6003A074A /* CameraShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraShape.swift; sourceTree = "<group>"; };
+		D1B0DCBB29C000F4003A074A /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		D1EF864129B2C10B00AC9A7D /* Componentes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Componentes.swift; sourceTree = "<group>"; };
 		E15B3EA591CEED8401F91A5A /* Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7907746543C44D34C354E39 /* Pods-SwiftUI-Titans-Crypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Titans-Crypto.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +183,7 @@
 		D110F70D29B025CD008C8B49 /* SwiftUI-Titans-Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				D1B0DCBA29C000DE003A074A /* Utilitarios */,
 				D18E6D2A29B9675B0017F736 /* SwiftUI-Titans-Crypto.entitlements */,
 				D18E6D1F29B7FFC00017F736 /* GoogleService-Info.plist */,
 				D18E6D1B29B7D1E20017F736 /* Info.plist */,
@@ -326,9 +341,23 @@
 		D110F75529B029C3008C8B49 /* Wallets */ = {
 			isa = PBXGroup;
 			children = (
+				D1B0DCB829BFF6C6003A074A /* CameraShape.swift */,
 				D110F75E29B02A14008C8B49 /* WalletsView.swift */,
+				D14E848D29BF81B700852419 /* WalletsViewModel.swift */,
+				D14E848429BF7C6B00852419 /* WalletsComponentes */,
+				D18E6D2B29BBB9290017F736 /* WalletsQRView.swift */,
 			);
 			path = Wallets;
+			sourceTree = "<group>";
+		};
+		D14E848429BF7C6B00852419 /* WalletsComponentes */ = {
+			isa = PBXGroup;
+			children = (
+				D14E848529BF7C9C00852419 /* QrCodeScannerView.swift */,
+				D14E848729BF7CBE00852419 /* CameraPreview.swift */,
+				D14E848929BF7D5100852419 /* QrCodeCameraDelegate.swift */,
+			);
+			path = WalletsComponentes;
 			sourceTree = "<group>";
 		};
 		D18E6D1729B6BCBE0017F736 /* Dominio */ = {
@@ -345,6 +374,14 @@
 				D18E6D1929B6BCEF0017F736 /* BienvenidaModelo.swift */,
 			);
 			path = Modelos;
+			sourceTree = "<group>";
+		};
+		D1B0DCBA29C000DE003A074A /* Utilitarios */ = {
+			isa = PBXGroup;
+			children = (
+				D1B0DCBB29C000F4003A074A /* Constantes.swift */,
+			);
+			path = Utilitarios;
 			sourceTree = "<group>";
 		};
 		D1EF864029B2C0EF00AC9A7D /* Componentes */ = {
@@ -379,7 +416,6 @@
 				D110F70729B025CD008C8B49 /* Sources */,
 				D110F70829B025CD008C8B49 /* Frameworks */,
 				D110F70929B025CD008C8B49 /* Resources */,
-				D110F76029B02E53008C8B49 /* SwiftFormat Run Script */,
 				A9A0A15A746C2604286D1B13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -601,24 +637,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Titans-Crypto/Pods-SwiftUI-Titans-Crypto-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D110F76029B02E53008C8B49 /* SwiftFormat Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "SwiftFormat Run Script";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\"\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -628,13 +646,17 @@
 			files = (
 				D110F71829B025D8008C8B49 /* Persistence.swift in Sources */,
 				D18E6D2929B95D960017F736 /* RegisterMobileViewModel.swift in Sources */,
+				D1B0DCBC29C000F4003A074A /* Constantes.swift in Sources */,
 				D110F74429B0271C008C8B49 /* AutenticationView.swift in Sources */,
+				D14E848829BF7CBE00852419 /* CameraPreview.swift in Sources */,
 				D110F71129B025CD008C8B49 /* ContentView.swift in Sources */,
 				D110F74729B028B2008C8B49 /* RegisterMobileView.swift in Sources */,
 				D110F75B29B029F8008C8B49 /* TradesView.swift in Sources */,
+				D14E848E29BF81B700852419 /* WalletsViewModel.swift in Sources */,
 				D18E6D2729B958D60017F736 /* HomeViewModel.swift in Sources */,
 				D110F74129B026D3008C8B49 /* BienvenidaView.swift in Sources */,
 				D110F75729B029E1008C8B49 /* HomeView.swift in Sources */,
+				D14E848629BF7C9C00852419 /* QrCodeScannerView.swift in Sources */,
 				D18E6D2529B9554E0017F736 /* AppSharedViewModel.swift in Sources */,
 				D1EF864229B2C10B00AC9A7D /* Componentes.swift in Sources */,
 				D110F75929B029EE008C8B49 /* MarketsView.swift in Sources */,
@@ -647,8 +669,11 @@
 				D18E6D1E29B7FED80017F736 /* AutenticationViewModel.swift in Sources */,
 				D110F74D29B0291C008C8B49 /* CuentaCreadaView.swift in Sources */,
 				D110F74A29B028DE008C8B49 /* VerificationView.swift in Sources */,
+				D14E848A29BF7D5100852419 /* QrCodeCameraDelegate.swift in Sources */,
 				D18E6D2329B802AC0017F736 /* AppDelegate.swift in Sources */,
+				D1B0DCB929BFF6C6003A074A /* CameraShape.swift in Sources */,
 				2B2D4B6329B6B30800DEC623 /* PageControl.swift in Sources */,
+				D18E6D2C29BBB9290017F736 /* WalletsQRView.swift in Sources */,
 				D110F75F29B02A14008C8B49 /* WalletsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -815,6 +840,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SwiftUI-Titans-Crypto/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Necesitamos permiso de camara";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -849,6 +875,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SwiftUI-Titans-Crypto/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Necesitamos permiso de camara";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

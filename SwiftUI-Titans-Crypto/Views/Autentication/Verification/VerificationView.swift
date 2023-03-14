@@ -25,7 +25,7 @@ struct VerificationView: View {
                     .padding(.trailing, 90)
 
                 Text("+1 234 567 8900")
-                    .foregroundColor(Color("ColorTexto"))
+                    .foregroundColor(Color(COLOR_ACCENT))
                     .padding(.trailing, 200)
                     .padding(.bottom, 20)
 
@@ -44,7 +44,7 @@ struct VerificationView: View {
                     print("Resent")
                 } label: {
                     Text("Resend Link")
-                        .foregroundColor(Color("ColorTexto"))
+                        .foregroundColor(Color(COLOR_ACCENT))
                 }
                 .padding(.bottom, 40)
 

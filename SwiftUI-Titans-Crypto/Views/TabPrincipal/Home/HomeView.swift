@@ -46,7 +46,6 @@ struct HomeView: View {
                                 .foregroundColor(Color("ColorLetraHome"))
                         }
                     }
-
                     Button {
                         print("Grid Trading")
                     } label: {
@@ -156,6 +155,7 @@ struct HomeView: View {
                                 .font(.title2)
                                 .foregroundColor(Color("ColorTextP2P"))
                             Text("Bank Transfer, Paypal Revolution...")
+                                .foregroundColor(Color.gray)
                         }
 
                         Image("IntroEnButton")
