@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_SwiftUI_Titans_Crypto_SwiftUI_Titans_CryptoUITests
+@end

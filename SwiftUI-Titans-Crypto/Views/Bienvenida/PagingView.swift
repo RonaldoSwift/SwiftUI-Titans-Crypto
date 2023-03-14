@@ -45,9 +45,8 @@ struct PagingView<Content>: View where Content: View {
                 )
             }
             .clipped()
-
-            PageControl(index: $index, maxIndex: maxIndex)
         }
+        .frame(height: 500)
     }
 
     func offset(in geometry: GeometryProxy) -> CGFloat {

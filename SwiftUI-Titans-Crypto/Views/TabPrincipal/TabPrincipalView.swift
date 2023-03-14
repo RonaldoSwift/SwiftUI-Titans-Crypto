@@ -8,34 +8,43 @@
 import SwiftUI
 
 struct TabPrincipalView: View {
+    @State private var selectedItem = 1
+    
     var body: some View {
-        TabView {
+        TabView(selection: $selectedItem) {
             HomeView()
                 .tabItem {
-                    Label("Home", systemImage: "list.dash")
+                    Label("Home", systemImage: "house.fill")
                 }
                 .tag(1)
             MarketsView()
                 .tabItem {
-                    Label("Markets", systemImage: "list.dash")
+                    Label("Markets", systemImage: "handbag")
                 }
                 .tag(2)
             TradesView()
                 .tabItem {
-                    Label("Trades", systemImage: "list.dash")
+                    Label("Trades", systemImage: "dollarsign.circle.fill")
                 }
                 .tag(3)
             ActivityView()
                 .tabItem {
-                    Label("Activity", systemImage: "list.dash")
+                    Label("Activity", systemImage: "bookmark.fill")
                 }
                 .tag(4)
-            WalletsView()
-                .tabItem {
-                    Label("Wallets", systemImage: "list.dash")
-                }
-                .tag(5)
+
+            NavigationView {
+                WalletsView(clickEnBotonCancel: {
+                    selectedItem = 1
+                })
+            }
+            .tabItem {
+                Label("Wallets", systemImage: "bag.fill")
+            }
+            .tag(5)
         }
+        .accentColor(Color(COLOR_ACCENT))
+        .navigationBarBackButtonHidden(true)
     }
 }
 
